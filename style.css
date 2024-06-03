@@ -1,55 +1,44 @@
 .upper_nav{
     text-align: center;
-    width: 100%;
-    height: 100px;
+   
     background-color: gray;
+    padding: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .down_nav{
-    width: 100%;
+    margin-top: 15px;
     background-color: darkslategray;
-    height: 70px;
-    display: inline-block;
-    
+    padding: 30px;
 }
 
 .down_nav a{
-    width: 20%;
-    margin: 50px;
-   padding: 5%;
-    text-decoration: none;
-    color: white;
+   
+  margin: 50px;
+  padding: 50px;
+  color: white;
+  
 }
 
 .link{
-    padding-top: 10px;
-}
-
-.div-main{
-    width: 40%;
-    background-color: #fff;
-    margin-left: 30%;
-}
-
-.left-side, input,choose,box{
-    margin-left: 30%;
-    border-radius: 5px;
+  
+  text-decoration: none;
 }
 
 table{
-    width: 65%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 30px;
-    height: 300px;
 }
 
 .sl{
     width: 50px;
-    
-}
-
-td{
     text-align: center;
 }
+
+
+    
 
 .title{
     background-color: darkslategray;
@@ -60,6 +49,22 @@ ul li{
     margin-top: 20px;
 }
 
-#left-side{
-    margin-left: 30%;
+.left-side{
+    width: 20%;
+    float: left;
+   font-size: 20px;
+   margin-left: 25%;
+   
+}
+
+.btn{
+    margin-left: 40%;
+}
+
+input{
+    border-radius: 5px;
+}
+
+tr:nth-child(even){
+    background-color: lightslategray;
 }
