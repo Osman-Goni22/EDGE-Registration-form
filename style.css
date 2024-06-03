@@ -1,0 +1,65 @@
+.upper_nav{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+.down_nav{
+    width: 100%;
+    background-color: darkslategray;
+    height: 70px;
+    display: inline-block;
+    
+}
+
+.down_nav a{
+    width: 20%;
+    margin: 50px;
+   padding: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.link{
+    padding-top: 10px;
+}
+
+.div-main{
+    width: 40%;
+    background-color: #fff;
+    margin-left: 30%;
+}
+
+.left-side, input,choose,box{
+    margin-left: 30%;
+    border-radius: 5px;
+}
+
+table{
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 30px;
+    height: 300px;
+}
+
+.sl{
+    width: 50px;
+    
+}
+
+td{
+    text-align: center;
+}
+
+.title{
+    background-color: darkslategray;
+}
+
+ul li{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#left-side{
+    margin-left: 30%;
+}
