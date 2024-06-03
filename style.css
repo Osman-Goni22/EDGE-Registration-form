@@ -9,14 +9,14 @@
 }
 .down_nav{
     margin-top: 15px;
-    background-color: darkslategray;
+    background-color: rgb(39, 73, 73);
     padding: 30px;
 }
 
 .down_nav a{
    
   margin: 50px;
-  padding: 50px;
+  padding: 60px;
   color: white;
   
 }
@@ -66,5 +66,5 @@ input{
 }
 
 tr:nth-child(even){
-    background-color: lightslategray;
+    background-color: rgb(218, 222, 226);
 }
